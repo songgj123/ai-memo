@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback, useMemo } from 'react'
 import { Memo, MemoFormData } from '@/types/memo'
 import {
   getMemos,
-  getMemoById as getMemoByIdAction,
   createMemo as createMemoAction,
   updateMemo as updateMemoAction,
   deleteMemo as deleteMemoAction,
